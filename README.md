@@ -36,7 +36,7 @@ Nele foram criadas 3 Landing Pages para sites fictícios.
 - O Travel Expert: Uma LP para um site de viagens.
 - O Healthy Recipes: Uma LP para um site de receitas.
 
-<strong> [Visite o projeto online](guiogigo.github.io/Jornada) </strong>
+<strong> [Visite o projeto online](https://guiogigo.github.io/Jornada) </strong>
 
 ## 🔖 Layout
 
