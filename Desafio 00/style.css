@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  background-image: url(../images/HorrorGameBackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+  height: 100vh;
+  
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Emilys Candy', cursive;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+  color: #FFC700;
+
+  margin: 4px 0;
+}
+
+main {
+  padding: 160px 0 0;
+}
+
+h3 {
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+h3 span {
+  color: hsla(47, 100%, 50%, 1);
+}
+
+p {
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.7);
+
+  margin-bottom: 72px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+a {
+  padding: 12px 32px;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+#buttonPlay, a:hover {
+  background: hsla(47, 100%, 50%, 1);
+  color: black;
+  text-decoration: none;
+  transition: background 0.5s;
+}
+
+#buttonPlay:hover {
+  background-color: #caa41c;
+}

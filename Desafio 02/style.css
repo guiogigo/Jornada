@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  background-image: url('../images/EaetingForLiving.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100vh;
+
+  font-family: 'Spectral', serif;
+  color: #EBF1FB;
+  text-align: center;
+}
+
+main {
+  padding: 275px 0 0;
+}
+
+h1 {
+  font-family: 'Beth Ellen', cursive;
+  font-size: 64px;
+  line-height: 120px;
+  font-weight: 400;
+}
+
+span {
+  color: hsla(171, 77%, 64%, 1);
+}
+
+p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  margin: 4px 0 72px;
+}
+
+div {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+a {
+  padding: 16px 32px;
+
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: #EBF1FB;
+}
+
+a:hover, #btn {
+  color: #0B0C0E;
+  text-decoration: none;
+
+  background: #5EEAD4;
+  border-radius: 8px;
+
+  transition: background 0.5s ease;
+}
+
+#btn:hover {
+  background: #8effee;
+}
+
